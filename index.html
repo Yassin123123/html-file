@@ -1,40 +1,65 @@
 <a href = "https://www.amazon.eg/s?k=amazon&language=ar_AE&adgrpid=190660480051&hvadid=772656707212&hvdev=c&hvlocphy=9112477&hvnetw=g&hvqmt=e&hvrand=11097151490892653139&hvtargid=kwd-10573980&hydadcr=28201_2360448&mcid=cf678a1eb6c03c73b03e5db2033f993d"
- target="_blank">Back to Amazon</a>
+ target="_blank" class = "amazon_a">Back to Amazon</a>
+ <style>
+        .amazon_a:hover {
+                color:rgb(205, 79, 0);
+        }
+ </style>
+
+ <p class="prod_p">Nike Black Running Shoes</p>
  <style>
         .prod_p{
                 font-weight: bold;
                 font-size: 20px;
         }
  </style>
- <p class="prod_p">Ehab mo2arras</p>
+
+ <p class="price_p">39$ - in stock.</p>
+ <p>Free delivery tomorrow.</p>
  <style>
         .price_p{
                 color:rgb(0,118,0);
                 font-weight: bold;
         }
  </style>
- <p class="price_p">39$ - in stock.</p>
- <p>Free delivery tomorrow.</p>
+
+<button class="add_button">
+        Add to cart 
+</button>
 <style>
-        .get_button {
-                width: 95px;
-                height: 30px;
+        .add_button {
+                padding-top: 5;
+                padding-left: 13;
+                padding-bottom: 5;
+                padding-right: 13;
                 border: none;
                 color:black;
                 font-weight: bold;
                 font-size: 13px;
-                background-color: rgb(255, 216, 20);
+                background-color:rgb(255, 216, 20);
                 border-radius: 35px;
                 cursor: pointer;
+                transition: background-color 0.15s;
+        }
+
+        .add_button:hover {
+                background-color:rgb(237, 199, 6)
+        }
+        .add_button:active {
+                opacity: 0.5;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
         }
 </style>
-<button class="get_button">
-        Add to cart 
+
+<button class="buy_button">
+        Buy now
 </button>
 <style>
-        .download_button {
-                width: 95px;
-                height: 30px;
+        .buy_button {
+                padding-top: 5;
+                padding-left: 13;
+                padding-bottom: 5;
+                padding-right: 13;
                 border: none;
                 color:black;
                 font-weight: bold;
@@ -43,10 +68,45 @@
                 border-radius: 35px;
                 cursor: pointer;
                 margin-left: 6px;
+                transition: background-color 0.2s;
+        }
+
+        .buy_button:hover {
+                background-color:rgb(222, 133, 0) ;
+        }
+
+        .buy_button:active {
+                opacity: 0.6;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
         }
 </style>
-<button class="download_button">
-        Buy now 
 
+<button class = "new_button">
+        Increasing
 </button>
+<style>
+        .new_button{
+                padding-left: 9px;
+                padding-right: 9px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-width: 1px;
+                border-radius: 2px;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: bold;
+                color: green;
+                background-color: white;
+                border-color: green;
+
+        }
+
+        .new_button :hover{
+                padding-left: 13px;
+                padding-right: 13px;
+                padding-top: 8;
+                padding-bottom: 8;
+                
+        }
+</style>
 
