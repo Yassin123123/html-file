@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <header>
+
+        <title>
+            Ehab mo2arras
+        </title>
+
+        <link rel="stylesheet" href="Ehab.css">
+
+        <img src="images/important.jpeg" class="Alexia_img">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </header>
+    <body>
+        <p class="model_p">Model 3</p>
+        <p class="delivery_p">Order Online for <u>Touchless Delivery</u></p>
+    </body>
+</html>
